@@ -1,0 +1,408 @@
+{
+    "adagio": {
+        "options": {},
+        "code": "adagio"
+    },
+    "adkernelAdn": {
+        "options": {
+            "pubId": {
+                "example": 50357,
+                "required": true,
+                "description": "id provided by adkernel"
+            },
+            "host": {
+                "example": "dsp-staging.adkernel.com",
+                "required": false,
+                "description": "optional host for validation purposes"
+            }
+        },
+        "code": "adkernelAdn"
+    },
+    "adomik": {
+        "options": {},
+        "code": "adomik"
+    },
+    "adxcg": {
+        "options": {
+            "publisherId": {
+                "example": "42",
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "adxcg"
+    },
+    "adxpremium": {
+        "options": {
+            "pubID": {
+                "example": 12345678,
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "adxpremium"
+    },
+    "appier": {
+        "options": {
+            "configId": {
+                "example": "YOUR_CONFIG_ID",
+                "required": true,
+                "description": ""
+            },
+            "affiliateId": {
+                "example": "YOUR_AFFILIATE_ID",
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "appier"
+    },
+    "appnexus": {
+        "options": {},
+        "code": "appnexus"
+    },
+    "datablocks": {
+        "options": {
+            "publisherId": {
+                "example": "12345",
+                "required": true,
+                "description": "Publisher Id"
+            },
+            "sourceId": {
+                "example": "12345",
+                "required": true,
+                "description": "Source Id"
+            },
+            "host": {
+                "example": "prebid.datablocks.net",
+                "required": true,
+                "description": "Host"
+            }
+        },
+        "code": "datablocks"
+    },
+    "eplanning": {
+        "options": {
+            "host": {
+                "example": "https://ads.us.e-planning.net/hba/1/",
+                "required": false,
+                "description": "host"
+            },
+            "ci": {
+                "example": "123456",
+                "required": true,
+                "description": "Client ID"
+            }
+        },
+        "code": "eplanning"
+    },
+    "finteza": {
+        "options": {
+            "id": {
+                "example": "xxxxx",
+                "required": true,
+                "description": "Website ID"
+            },
+            "bidRequestTrack": {
+                "example": "",
+                "required": false,
+                "description": "Bid Request %BIDDER%"
+            },
+            "bidResponsePriceTrack": {
+                "example": "",
+                "required": false,
+                "description": "Bid Response Price %BIDDER%"
+            },
+            "bidResponseTimeTrack": {
+                "example": "",
+                "required": false,
+                "description": "Bid Response Time %BIDDER%"
+            },
+            "bidTimeoutTrack": {
+                "example": "",
+                "required": false,
+                "description": "Bid Timeout %BIDDER%"
+            },
+            "bidWonTrack": {
+                "example": "",
+                "required": false,
+                "description": "Bid Won %BIDDER%"
+            }
+        },
+        "code": "finteza"
+    },
+    "google": {
+        "options": {
+            "global": {
+                "example": "ga",
+                "required": false,
+                "description": "Name of the global analytics object. Default is `ga`"
+            },
+            "trackerName": {
+                "example": "default",
+                "required": false,
+                "description": "Use another tracker for prebid events. Default is the default tracker"
+            },
+            "sampling": {
+                "example": 1,
+                "required": false,
+                "description": "Choose a value from `0` to `1`, where `0` means 0% and `1` means 100% tracked"
+            },
+            "enableDistribution": {
+                "example": true,
+                "required": false,
+                "description": "Enables additional events that track load time and cpm distribution by creating buckets for load time and cpm"
+            },
+            "cpmDistribution": {
+                "example": "",
+                "required": false,
+                "description": "Customize the cpm buckets for the cpm distribution"
+            }
+        },
+        "code": "google"
+    },
+    "invisibly": {
+        "options": {
+            "account": {
+                "example": "invisibly",
+                "required": true,
+                "description": "account is a mandatory input to adapter configuration"
+            }
+        },
+        "code": "invisibly"
+    },
+    "kargo": {
+        "options": {},
+        "code": "kargo"
+    },
+    "livewrapped": {
+        "options": {},
+        "code": "livewrapped"
+    },
+    "liveyield": {
+        "options": {
+            "customerId": {
+                "example": "UUID",
+                "required": true,
+                "description": "will be provided by the LiveYield team"
+            },
+            "customerName": {
+                "example": "Customer name",
+                "required": true,
+                "description": "will be provided by the LiveYield team"
+            },
+            "customerSite": {
+                "example": "Fixed Site Name",
+                "required": true,
+                "description": "do NOT use window.location.host, use constant value"
+            },
+            "sessionTimezoneOffset": {
+                "example": "-300",
+                "required": false,
+                "description": "this is used to be inline with GA 'sessionizer' which closes the session on midnight (EST-time)"
+            }
+        },
+        "code": "liveyield"
+    },
+    "marsmedia": {
+        "options": {},
+        "code": "marsmedia"
+    },
+    "openx": {
+        "options": {},
+        "code": "openx"
+    },
+    "prebidmanager": {
+        "options": {},
+        "code": "prebidmanager"
+    },
+    "pubwise": {
+        "options": {
+            "site": {
+                "example": "site.com",
+                "required": true,
+                "description": ""
+            },
+            "endpoint": {
+                "example": "https://api.pubwise.io/api/v4/event/add/",
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "pubwise"
+    },
+    "pulsepoint": {
+        "options": {},
+        "code": "pulsepoint"
+    },
+    "realvu": {
+        "options": {},
+        "code": "realvu"
+    },
+    "rivr": {
+        "options": {},
+        "code": "rivr"
+    },
+    "roxot": {
+        "options": {},
+        "code": "roxot"
+    },
+    "rubicon": {
+        "options": {},
+        "code": "rubicon"
+    },
+    "scaleable": {
+        "options": {
+            "site": {
+                "example": "",
+                "required": true,
+                "description": "Contact Scaleable to receive your unique site id"
+            }
+        },
+        "code": "scaleable"
+    },
+    "sharethrough": {
+        "options": {},
+        "code": "sharethrough"
+    },
+    "sigmoid": {
+        "options": {
+            "publisherIds": {
+                "example": [
+                    "3gxdf18d32"
+                ],
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "sigmoid"
+    },
+    "sonobi": {
+        "options": {
+            "pubId": {
+                "example": "ffBB352",
+                "required": true,
+                "description": ""
+            },
+            "siteId": {
+                "example": 57463,
+                "required": true,
+                "description": ""
+            },
+            "delay": {
+                "example": 300,
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "sonobi"
+    },
+    "sortable": {
+        "options": {},
+        "code": "sortable"
+    },
+    "sovrn": {
+        "options": {
+            "sovrnId": {
+                "example": "xxxxx",
+                "required": true,
+                "description": "Sovrn ID, you can get this by contacting Sovrn support"
+            }
+        },
+        "code": "sovrn"
+    },
+    "staq": {
+        "options": {
+            "host": {
+                "example": "",
+                "required": false,
+                "description": "HOST URL of site. Optional. Only required for whitelisting"
+            },
+            "url": {
+                "example": "localhost:3000",
+                "required": true,
+                "description": "host URL for delivery of information to STAQ"
+            },
+            "connId": {
+                "example": "5678",
+                "required": true,
+                "description": "STAQ connection ID"
+            }
+        },
+        "code": "staq"
+    },
+    "ucfunnel": {
+        "options": {
+            "pbuid": {
+                "example": "PBUID_FROM_UCFUNNEL",
+                "required": true,
+                "description": "pbuid from Ucfunnel"
+            },
+            "adid": {
+                "example": "BIDDING_ADID_FROM_UCFUNNEL",
+                "required": true,
+                "description": "Bidding AdId from Ucfunnel"
+            }
+        },
+        "code": "ucfunnel"
+    },
+    "vuble": {
+        "options": {
+            "pubId": {
+                "example": 18,
+                "required": true,
+                "description": ""
+            },
+            "env": {
+                "example": "net",
+                "required": true,
+                "description": ""
+            }
+        },
+        "code": "vuble"
+    },
+    "yuktamedia": {
+        "options": {
+            "pubId": {
+                "example": 50357,
+                "required": true,
+                "description": "id provided by YuktaMedia LLP"
+            },
+            "pubKey": {
+                "example": "xxx",
+                "required": true,
+                "description": "key provided by YuktaMedia LLP"
+            }
+        },
+        "code": "yuktamedia"
+    },
+    "yieldone": {
+        "options": {
+            "pubId": {
+                "example": "TestAnalyticsPublisher",
+                "required": true,
+                "description": "id provided by Platform One publisher team"
+            }
+        },
+        "code": "yieldone"
+    },
+    "wbid": {
+        "options": {
+            "publisher_id": {
+                "example": "5abd0543ba45723db49d97ea",
+                "required": true,
+                "description": "Publisher ID from WMGroup dashboard"
+            },
+            "site": {
+                "example": "example.com",
+                "required": true,
+                "description": "Publisher's domain"
+            }
+        },
+        "code": "wbid"
+    },
+    "adWMG": {
+        "options": {},
+        "code": "adWMG"
+    }
+}

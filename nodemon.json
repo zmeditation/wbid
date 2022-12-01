@@ -1,0 +1,21 @@
+{
+    "ignore": [
+        "app/modules/PrebidBuilder/dist",
+        "app/modules/PrebidBuilder/core",
+        "app/dist",
+        "data.json",
+        "app/modules/tagGenerator/gptTag.txt",
+        "app/modules/tagGenerator/passbackTag.txt",
+        "app/server/http/static/js",
+        "app/modules/DFP_API/services/Auth/network.json",
+        "app/modules/DFP_API/services/Auth/token.json",
+        "err.json",
+        "app/modules/DFP_API/services/Auth/data.json",
+        "app/modules/DFP_API/services/Auth/user-data.json",
+        "connectChunk.json",
+        "connect.json",
+        "chunk*.json",
+        "app/modules/DFP_API/DFP_HB_SetUp/modules/data*"
+
+    ]
+}

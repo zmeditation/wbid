@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended" ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "plugins": ["prettier", "promise"],
+    "rules": {
+        "no-console": "off",
+        "no-undef": "off",
+        "prettier/prettier": "error",
+        "prefer-spread": "warn",
+        "prefer-destructuring": "warn",
+        "prefer-promise-reject-errors": "warn"
+    }
+}

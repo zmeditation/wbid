@@ -1,0 +1,20 @@
+{
+  "_events": {},
+  "_eventsCount": 0,
+  "transporter": {},
+  "credentials": {
+    "access_token": "ya29.GltXBw-vFv9zKbq_foMc0a5j9on1hFFwmTaG0KMSLJkR2vJl5Gc3ooEzABemO4ssc6wP9ruLF9QEWJ3KtHMPlWSmvQS52sZg7WVaVVP0e051v_n_QOaZ2_x4PKhR",
+    "refresh_token": "1/1ZBS06ZPpSGiSCo1mRnzPWA5Sa7SsWg0abuLHMHjFjg",
+    "scope": "https://www.googleapis.com/auth/dfp",
+    "token_type": "Bearer",
+    "expiry_date": 1564652178530
+  },
+  "certificateCache": {},
+  "certificateExpiry": null,
+  "certificateCacheFormat": "PEM",
+  "refreshTokenPromises": {},
+  "_clientId": "497722429485-fpk8s944p7m1gjt8b2ab4cqd81vb8a0f.apps.googleusercontent.com",
+  "_clientSecret": "JyTAVltyi91nJnXAtflvmywV",
+  "redirectUri": "http://localhost:3000/oauth2callback",
+  "eagerRefreshThresholdMillis": 300000
+}

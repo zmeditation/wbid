@@ -1,0 +1,12 @@
+{
+  "globalVarName": "pbjs",
+  "name": "prebid.js",
+  "version": "6.10.0-pre",
+  "description": "Header Bidding Management Library",
+  "main": "src/prebid.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prebid/Prebid.js.git"
+  }
+}
+

@@ -1,0 +1,12 @@
+const { Prebid } = require("../../../../modules/PrebidBuilder/modules");
+const pb = new Prebid();
+const { to } = require("await-to-js");
+module.exports = async (req, res) => {
+    try {
+        let err, analytics;
+        [err, analytics] = await to(pb.getAnalyticsList());
+        err ? res.status(500).send(err.message) : res.type("json").send(analytics);
+    } catch (e) {
+        console.error(e);
+    }
+};
